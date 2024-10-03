@@ -1,0 +1,13 @@
+"""x="hello"
+print(dict.fromkeys(x,0))
+#print(x.pop("h"))
+"""
+s=dict({1:2,"hi":"hello",(7):(9),"hero":34,"sky":23})
+t={6:5,0:9,"hii":"we"}
+print(s)
+s.pop("hi")
+print(s)
+s.popitem()
+print(s)
+c={**s,**t}
+print(c)
